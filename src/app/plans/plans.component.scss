@@ -1,0 +1,45 @@
+.plans {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    table {
+        table-layout: fixed;
+        width: 100%;
+        border-collapse: collapse;
+        
+        td,th {
+            padding: 20px 16px;
+            text-align: center;
+        }
+        tbody {
+            th{
+                text-align: left;
+            }
+            tr td {
+                &:nth-child(2) {
+                    background-color: black;
+                    color: white;
+                }    
+            }
+            tr {
+                &:last-child {
+                    td{
+                        &:nth-child(2){
+                            border-radius: 0 0 40px 40px;
+                        }
+                    } 
+                }
+            }
+        }
+        thead {
+            th {
+                &:nth-child(2) {
+                    background-color: black;
+                    color: white;
+                    border-radius: 40px 40px 0 0;
+                }     
+            }
+        }
+        
+    }
+}

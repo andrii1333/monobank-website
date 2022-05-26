@@ -1,0 +1,57 @@
+.order-card {
+    background: linear-gradient(225deg, #325bdc, #5670e2);
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 100px;
+
+    
+    .container{
+        display: flex;
+        grid-column-gap: 60px ;
+        width: 1100px;
+
+        .left{
+            width: 50%;
+            padding-top: 30px;
+            max-width: 380px;
+            padding-bottom: 52px;
+            
+
+            blockquote {
+                font-family: Lato,sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                padding-left: 8px;
+                border-left: 2px solid #f7e652;
+                max-width: 280px;
+                color: white;
+                margin-left: 0;
+                     a {
+                         color: #f7e652;
+                     }
+                }
+
+            h2 {
+                font-size: 56px;
+                font-weight: 900;
+                line-height: 1.21875;
+
+            }               
+                
+        }
+        
+        .right {
+            width: 50%; 
+            display: flex;
+            align-items: flex-end;
+            img {
+                width: 506px;
+                margin: 0;
+            }
+            
+        }
+    }
+     }

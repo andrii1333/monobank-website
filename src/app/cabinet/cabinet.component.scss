@@ -1,0 +1,18 @@
+.account-cabinet {
+    height:100vh;
+    display: flex;
+    align-items: center;
+    .container{
+        display:flex;
+        column-gap: 60px;
+        justify-content: space-between;
+        .right {
+            h2 {
+                margin-bottom: 20px;
+            }
+            p {
+                margin-top: 1.22em;
+            }
+        }
+    }
+}

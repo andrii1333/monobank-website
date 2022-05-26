@@ -1,5 +1,4 @@
 footer{
-   
     background-color: black;
     padding-left: 56px;
     padding-right: 56px;
@@ -7,19 +6,15 @@ footer{
     font-size: 16px;
     box-sizing: border-box;
     width: 100%;
-    
-        
         .footer-main-layout {
             max-width: 1100px;
             margin: 0 auto;
 
             padding: 90px 0 100px 0;
-        
         img {
             max-width: 100%;
             width: 345px;
         }
-
         p {
             margin-top: 24px;
             font-size: 14px;
@@ -32,17 +27,13 @@ footer{
                 color: white;
             }
         }
-
         a {
             color: white;
             text-decoration: none;
         }
         a:hover {
             color: #e74b4e;
-        
         }        
-    
-    
         .fotter-menu {
             display: flex;
             flex-wrap: nowrap;
@@ -53,8 +44,6 @@ footer{
             width: 1110px;
             max-width: 100%;
             margin-top: 49px;
-            
-            
            }
            .left {
                display: flex;
@@ -64,13 +53,10 @@ footer{
                align-items: flex-start;
                margin: -15px;
                flex-grow: 1;
-                
                 .footer-menu-item {
                     width: 100%;
                     max-width: 225px;
                     margin: 15px;
-
-
                     .footer-menu-tittle {
                         font-weight: 900;
                         font-family: Inter,Arial,sans-serif;
@@ -96,7 +82,6 @@ footer{
                         transition: all ease .3s;
                         border-radius: 12px;
                     }
-
                     .label-new {
                         display: inline-block;
                         transform: translateY(-50%);
@@ -122,14 +107,12 @@ footer{
                     flex-wrap: nowrap;
                     align-content: flex-start;
                     align-items: flex-start;
-                   
                     .icons {
                         background-color: #5310d8;
                         width: 80px;
                         height: 80px;
                         position: relative;
                         margin-bottom: 24px;
-
                         img {
                                 position: absolute;
                                 top: 50%;
@@ -137,9 +120,7 @@ footer{
                                 transform: translate(-50%,-50%);
                                 object-fit: cover;
                                 width: 22px;
-                               
                             }
-                            
                     }
                 }  
                 .small-text {

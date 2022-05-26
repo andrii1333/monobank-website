@@ -1,0 +1,48 @@
+.takephone {
+    background: linear-gradient(225deg, #617be3, #6f1ddb);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    .container {
+        display: flex;
+
+        .left {
+            width: 50%;
+            padding-top: 60px;
+            p{
+                    margin: 45px 0;
+            }
+            .tel-btn {
+                display: flex;
+            }
+
+        }
+        
+        .right {
+            width: 50%; 
+            
+        }
+    }
+   
+    input {
+        border-radius: 16px;
+        border: none;
+        padding-top: 17px;
+        padding-right:24px;
+        padding-bottom: 17px;
+        padding-left: 24px;
+        text-align: center;
+        color:white;
+        background-color: #8a6ee5;
+        width: 240px;
+        margin: 16px 8px;
+
+    }
+    ::placeholder {
+        color:#c3acf1;
+        margin: 16px 8px;
+
+    }
+    
+}
